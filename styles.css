@@ -1,0 +1,32 @@
+.container{
+  border: solid black;
+  display: grid;
+}
+
+h1 {
+  text-align: center;
+}
+
+#text-input, #check-btn, #result {
+  margin: auto;
+}
+
+#text-input{
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#check-btn{
+  background-color: pink;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+#result{
+  border: solid black;
+  padding: 30px;
+  margin-bottom: 10px;
+  width: 30%;
+  border-radius: 4px;
+}
