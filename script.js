@@ -13,11 +13,13 @@ function checkInput(){
 const inputValue = textInput.value;
 
 if(inputValue===""){
-  alert("Please input a value")
+  alert("Please input a value");
+  resultDiv.textContent = "";
+  return;
 };
 
 if (checkPalindrome(inputValue)){
-    resultDiv.textContent = `${inputValue} is a Palindrome.`
+    resultDiv.textContent = `${inputValue} is a Palindrome!`
   }
   else{
     resultDiv.textContent = `${inputValue} is not a Palindrome.`
